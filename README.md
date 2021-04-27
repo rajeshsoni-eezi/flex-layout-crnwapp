@@ -28,6 +28,7 @@ $ yarn web
 # IOS (simulator)
 $ cd ios
 $ pod install
+$ cd ..
 $ yarn ios
 
 # Android (connected device)
