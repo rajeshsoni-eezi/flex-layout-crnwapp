@@ -19,8 +19,6 @@
 
 
 # cd into your <project-directory>
-$ cd myApp
-
 $ yarn install
 
 # Run Web/Ios/Android development
