@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'MaterialIcons';
+  src: local('MaterialIcons'), url('./assets/fonts/MaterialIcons.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Feather';
+  src: local('Feather'), url('./assets/fonts/Feather.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AntDesign';
+  src: local('AntDesign'), url('./assets/fonts/AntDesign.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'EvilIcons';
+  src: local('EvilIcons'), url('./assets/fonts/EvilIcons.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ionicons';
+  src: local('Ionicons'), url('./assets/fonts/Ionicons.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: local('FontAwesome'), url('./assets/fonts/FontAwesome.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins-Regular'), url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: local('Poppins-Thin'), url('./assets/fonts/Poppins-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLight';
+  src: local('Poppins-ExtraLight'), url('./assets/fonts/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+
+/* These styles make the body full-height */
+html,
+body {
+  font-size: 12px;
+}
+/* These styles disable body scrolling if you are using <ScrollView> */
+body {
+  overflow: hidden;
+}
+/* These styles make the root element full-height */
+#root {
+  display: flex;
+  height: 100%;
+}
